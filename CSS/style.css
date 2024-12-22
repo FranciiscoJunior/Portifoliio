@@ -66,6 +66,11 @@ header a{
     transition: .2s;
 }
 
+header .logo a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
 header nav.menu-desktop a:hover{
     color: #fff;
     transform: scale(1.05);
@@ -107,7 +112,7 @@ header nav.menu-desktop ul li {
     width: 70%;
 }
 
-.menu-mobile.abrir-menu, .overlay-menu {
+.menu-mobile.abrir-menu ~ .overlay-menu {
     display: block;
 }
 
@@ -382,9 +387,20 @@ footer .line-footer {
     padding: 20px 0;
 }
 
+footer .logo-footer a {
+    text-decoration: none;
+    color: #7d7d7d;
+    transition: .2s;
+}
+
+footer .logo-footer a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
 footer .line-footer p i{
     color: #e09090;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 footer .line-footer p a {
