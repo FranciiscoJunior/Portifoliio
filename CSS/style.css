@@ -234,7 +234,10 @@ section.tecnologias {
 
 section.tecnologias .flex {
     gap: 70px;
-    align-items: center;
+}
+
+.tecnologias .tecnologia-div {
+    
 }
 
 .tecnologias .tecnologia-box {
@@ -252,7 +255,7 @@ section.tecnologias .flex {
 
 .tecnologias .tecnologia-box img {
     font-size: 30px;
-    margin: 5px 0 0;
+    margin: 5px 0;
 }
 
 /* Estilizando o sobre */
