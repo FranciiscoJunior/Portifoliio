@@ -1,6 +1,10 @@
 @media screen and (max-width: 1020px){
     /* Classes gerais */
     .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
         flex-direction: column-reverse;
     }
 
@@ -77,6 +81,14 @@
     }
 
     footer .line-footer {
+        text-align: center;
+    }
+
+    footer .info {
+        text-align: center;
+    }
+
+    footer .copyright {
         text-align: center;
     }
 }

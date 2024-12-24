@@ -53,7 +53,7 @@ header {
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
-header > .interface {
+header >.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -204,7 +204,6 @@ section.especialidades .flex{
     gap: 60px;
 }
 
-
 .especialidades .especialidades-box {
     color: #fff;
     padding: 40px;
@@ -218,7 +217,6 @@ section.especialidades .flex{
     box-shadow: 0 0 30px #ffffff3f;
 }
 
-
 .especialidades .especialidades-box i{
     font-size: 70px;
     color: #e09090;
@@ -227,6 +225,34 @@ section.especialidades .flex{
 .especialidades .especialidades-box h3{
     font-size: 28px;
     margin: 15px 0;
+}
+
+/* Estilizando a seção de tecnologias */
+section.tecnologias {
+    padding: 40px 5%;
+}
+
+section.tecnologias .flex {
+    gap: 70px;
+    align-items: center;
+}
+
+.tecnologias .tecnologia-box {
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 70px;
+    transition: .3s;
+}
+
+.tecnologias .tecnologia-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #ffffff3f;
+}
+
+.tecnologias .tecnologia-box img {
+    font-size: 30px;
+    margin: 5px 0 0;
 }
 
 /* Estilizando o sobre */
@@ -250,7 +276,7 @@ section.sobre .flex{
     margin-bottom: 30px;
 }
 
-.sobre .txt-sobre  span{
+.sobre .txt-sobre h2 span{
     color: #e09090;
     display: block;
 }
@@ -321,6 +347,7 @@ section.portifolio .flex {
     opacity: 1;
 }
 
+/* Seção do formulário */
 section.formulario {
     padding: 80px 4%;
 }
@@ -351,8 +378,8 @@ form input::placeholder {
 }
 
 form textarea {
-    max-height: 300px;
     resize: none;
+    max-height: 300px;
 }
 
 form .btn-enviar {
@@ -379,12 +406,30 @@ footer .flex {
     justify-content: space-between;
 }
 
+footer .info {
+    color: #fff;
+    text-align: justify;
+    text-align: end;
+    padding: 2px 0;
+}
+
 .borda {
     border-top: 2px solid #e09090;
 }
 
 footer .line-footer {
-    padding: 20px 0;
+    padding: 10px 0;
+}
+
+footer .line-footer p i{
+    color: #e09090;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer .line-footer p a {
+    color: #fff;
 }
 
 footer .logo-footer a {
@@ -398,11 +443,8 @@ footer .logo-footer a:hover{
     transform: scale(1.05);
 }
 
-footer .line-footer p i{
-    color: #e09090;
-    font-size: 25px;
-}
-
-footer .line-footer p a {
-    color: #fff;
+footer .copyright p{
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
 }
