@@ -230,19 +230,18 @@ section.especialidades .flex{
 /* Estilizando a seção de tecnologias */
 section.tecnologias {
     padding: 40px 5%;
+    align-items: center;
 }
 
 section.tecnologias .flex {
     gap: 70px;
-}
-
-.tecnologias .tecnologia-div {
-    
+    align-items: center;
 }
 
 .tecnologias .tecnologia-box {
     color: #fff;
     padding: 20px;
+    align-items: center;
     border-radius: 20px;
     margin-top: 70px;
     transition: .3s;
