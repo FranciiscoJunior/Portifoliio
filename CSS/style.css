@@ -238,6 +238,15 @@ section.tecnologias .flex {
     align-items: center;
 }
 
+.tecnologia-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .tecnologias .tecnologia-box {
     color: #fff;
     padding: 20px;
