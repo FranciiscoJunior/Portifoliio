@@ -240,8 +240,9 @@ section.tecnologias .flex {
 
 .tecnologia-div {
     display: flex;
+    padding: 20px;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
