@@ -176,6 +176,7 @@ section.topo-do-site .flex {
 
 .topo-do-site .txt-topo-site p {
     color: #fff;
+    text-align: justify;
     margin: 40px 0;
 }
 
@@ -208,6 +209,7 @@ section.especialidades .flex{
     color: #fff;
     padding: 40px;
     border-radius: 20px;
+    text-align: justify;
     margin-top: 70px;
     transition: .3s;
 }
