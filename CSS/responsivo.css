@@ -1,10 +1,11 @@
-@media screen and (max-width: 1020px){
-    /* Classes gerais */
+@media screen and (max-width: 1020px) {
+
+    /* CLASSES GERAIS */
     .flex {
         flex-direction: column;
     }
 
-    .topo-do-site .flex {
+    .topo-do-site .flex{
         flex-direction: column-reverse;
     }
 
@@ -13,12 +14,14 @@
         line-height: 30px;
     }
 
-    /* Cabeçalho do site responsivo */
-    .menu-desktop, .btn-contato {
+    /* CABEÇALHO */
+    .menu-desktop,
+    .btn-contato {
         display: none;
     }
 
-    /* Topo do site */
+    /* TOPO DO SITE */
+
     section.topo-do-site .flex {
         gap: 40px;
     }
@@ -26,41 +29,41 @@
     section.topo-do-site {
         padding: 20px 8%;
     }
-    
-    .topo-do-site h1{
+
+    .topo-do-site h1 {
         font-size: 30px;
     }
-    
-    .topo-do-site .img-topo-site img{
+
+    .topo-do-site .img-topo-site img {
         width: 100%;
     }
 
-    /* Especialidades */
-    section.especialidades {
+    /* ESPECIALIDADES */
+    section.especiliadades {
         padding: 40px 8%;
     }
 
-    /* Sobre */
+    /* SOBRE */
     section.sobre {
         padding: 80px 8%;
     }
 
-    .sobre .txt-sobre h2{
+    .sobre .txt-sobre h2 {
         font-size: 34px;
         line-height: 35px;
         text-align: center;
     }
-
-    .btn-social {
+    
+    .btn-social{
         text-align: center;
     }
 
-    .img-sobre img {
+    .img-sobre img{
         width: 100%;
     }
 
-    /* Seção do portifólio */
-    section.portifolio {
+    /* PORTFÓLIO */
+    section.portfolio {
         padding: 80px 8%;
     }
 
@@ -69,26 +72,18 @@
         max-width: 360px;
         margin: 0 auto;
     }
-
-    section.portifolio .flex {
-        gap: 60px;
+    
+    section.portfolio .flex {
+       gap: 60px;
     }
 
-    /* Rodapé */
+    /* RODAPÉ */
     footer .flex {
         flex-direction: column;
         gap: 30px;
     }
 
     footer .line-footer {
-        text-align: center;
-    }
-
-    footer .info {
-        text-align: center;
-    }
-
-    footer .copyright {
         text-align: center;
     }
 }
