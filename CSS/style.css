@@ -103,7 +103,7 @@ header nav.menu-desktop ul li {
     top: 0;
     right: 0;
     z-index: 99999;
-    width: 70%;
+    width: 0%;
     overflow: hidden;
     transition: .5s;
 }
