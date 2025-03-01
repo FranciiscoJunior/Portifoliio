@@ -1,20 +1,20 @@
-/*let btnMenu = document.getElementById('btn-menu')
-let menu = document.getElementById('menu-mobile')
-let overlay = document.getElementById('overlay-menu')
+let btnMenu = document.getElementById('btn-menu');
+let menu = document.getElementById('menu-mobile');
+let overlay = document.getElementById('overlay-menu');
 
 btnMenu.addEventListener('click', ()=> {
-    menu.classList.add('abrir-menu')
-})
+    menu.classList.add('abrir-menu');
+});
 
 menu.addEventListener('click', ()=> {
-    menu.classList.remove('abrir-menu')
-})
+    menu.classList.remove('abrir-menu');
+});
 
 overlay.addEventListener('click', ()=> {
-    menu.classList.remove('abrir-menu')
-})*/
+    menu.classList.remove('abrir-menu');
+});
 
-document.getElementById('btn-menu').addEventListener('click', function() {
+/*document.getElementById('btn-menu').addEventListener('click', function() {
     document.getElementById('menu-mobile').classList.add('active');
     document.getElementById('overlay-menu').classList.add('active');
 });
@@ -27,7 +27,7 @@ document.getElementById('btn-close-menu').addEventListener('click', function() {
 document.getElementById('overlay-menu').addEventListener('click', function() {
     document.getElementById('menu-mobile').classList.remove('active');
     document.getElementById('overlay-menu').classList.remove('active');
-});
+});*/
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
