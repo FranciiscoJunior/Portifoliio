@@ -42,25 +42,25 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     console.log('Telefone:', phone);
     console.log('Assunto:', subject);
     console.log('Mensagem:', message);
+});
 
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        
-        const templateParams = {
-            name: document.getElementById('name').value,
-            email: document.getElementById('email').value,
-            phone: document.getElementById('phone').value,
-            subject: document.getElementById('subject').value,
-            message: document.getElementById('message').value
-        };
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
     
-        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
-            .then(function(response) {
-               console.log('SUCCESS!', response.status, response.text);
-               alert('Mensagem enviada com sucesso!');
-            }, function(error) {
-               console.log('FAILED...', error);
-               alert('Falha ao enviar a mensagem, tente novamente.');
-            });
+    const templateParams = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        subject: document.getElementById('subject').value,
+        message: document.getElementById('message').value
+    };
+
+    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+        .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        alert('Mensagem enviada com sucesso!');
+        }, function(error) {
+        console.log('FAILED...', error);
+        alert('Falha ao enviar a mensagem, tente novamente.');
     });
 });
